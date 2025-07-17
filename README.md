@@ -7,13 +7,7 @@ A lightweight and reusable utility library for working with arrays in JavaScript
 ## 🚀 Installation
 
 ```bash
-npm install array-utils
-```
-
-If you're using a scoped package (e.g. `@yourname/array-utils`):
-
-```bash
-npm install @yourname/array-utils
+npm install @inforaulgg/array-utils
 ```
 
 ---
@@ -37,7 +31,7 @@ npm install @yourname/array-utils
 ### JavaScript (CommonJS)
 
 ```js
-const { sortBy, removeDuplicates, sumByProperty } = require('array-utils');
+const { sortBy, removeDuplicates, sumByProperty } = require('@inforaulgg/array-utils');
 
 const users = [
   { name: 'Alice', age: 30 },
@@ -53,7 +47,7 @@ console.log(sumByProperty(users, 'age'));   // 85
 ### TypeScript (ESM)
 
 ```ts
-import { groupBy, averageByProperty, pluck } from 'array-utils';
+import { groupBy, averageByProperty, pluck } from '@inforaulgg/array-utils';
 
 type User = { id: number; name: string; score: number };
 
