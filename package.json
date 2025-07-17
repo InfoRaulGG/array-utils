@@ -1,0 +1,34 @@
+{
+  "name": "array-utils",
+  "version": "1.0.0",
+  "description": "NPM Module to make easy operate with arrays in TS/JS",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    "import": "./dist/index.mjs",
+    "require": "./dist/index.cjs"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --dts --format cjs,esm"
+  },
+  "keywords": [
+    "array",
+    "utils",
+    "typescript",
+    "javascript",
+    "helpers"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/InfoRaulGG/array-utils/issues"
+  },
+  "homepage": "https://github.com/InfoRaulGG/array-utils#readme",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}
