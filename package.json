@@ -1,6 +1,6 @@
 {
   "name": "@inforaulgg/array-utils",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "NPM Module to make easy operate with arrays in TS/JS",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
