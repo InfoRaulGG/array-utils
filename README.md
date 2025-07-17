@@ -28,10 +28,10 @@ npm install @inforaulgg/array-utils
 
 ## 📚 Usage Examples
 
-### JavaScript (CommonJS)
+### JavaScript
 
 ```js
-const { sortBy, removeDuplicates, sumByProperty } = require('@inforaulgg/array-utils');
+import { sortBy, removeDuplicates, sumByProperty } from '@inforaulgg/array-utils';
 
 const users = [
   { name: 'Alice', age: 30 },
