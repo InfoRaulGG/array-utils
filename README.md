@@ -86,19 +86,3 @@ const names = pluck(users, 'name');
 | `maxBy`               | Returns object with largest value by key         |
 
 ---
-
-## 📦 Build
-
-To build the project:
-
-```bash
-npm run build
-```
-
-This will output CommonJS, ESM, and TypeScript types to the `dist/` folder.
-
----
-
-## 📄 License
-
-MIT © 2025 Your Name
